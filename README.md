@@ -1,30 +1,18 @@
-# EthSec-Toolkit-
-# EthSec Toolkit
+# EthSec
 
-An open-source Ethereum smart contract security education toolkit for African developers.
+🛡️ EthSec is an open-source educational toolkit for Ethereum smart contract security education in Africa.
 
-## 🔍 What is EthSec?
+## Features
+- Solidity-based security challenges
+- Step-by-step Hardhat exercises
+- Resources on common vulnerabilities (Re-entrancy, Overflows, etc.)
+- Beginner-friendly documentation
 
-EthSec provides vulnerable and secure smart contracts, lessons on key security issues, and a local/offline-friendly learning platform for developers.
+## Setup
+```bash
+npm install
+npx hardhat test
+```
 
-## 📁 Project Structure
-
-- `curriculum/`: Markdown files explaining vulnerabilities.
-- `contracts/`: Example smart contracts (both secure and insecure).
-- `frontend/`: Optional simple UI to explore code and run tests.
-- `docs/`: Printable and translated educational content.
-- `scripts/`: Deployment/testing scripts.
-
-## 🚀 Getting Started
-
-1. Clone this repo
-2. Install [Hardhat](https://hardhat.org)
-3. Run `npx hardhat test` to test smart contracts
-
-## 🧑‍💻 Contributing
-
-PRs, feedback, and translations are welcome!
-
----
-
-MIT License © 2025 Hamzat M. Oladipupo
+## License
+MIT
