@@ -10,6 +10,7 @@
 
 ## Setup
 ```bash
+pip install -e
 npm install
 npx hardhat test
 ```
